@@ -1,6 +1,7 @@
 # proyectoBD2
 ## Integrantes
 Diego Ortiz
+
 José Porres
 ## Pre procesamiento y limpieza de textos
 Primero, lo que hicimos fue arreglar el texto de tal forma que no haya caracteres innecesarios como signos de puntuación o algunos otros que no aporten nada al mensaje. Luego, quitamos los stopwords para los cuales utilizamos la lista que nos brinda la librería nltk, lo hacemos iterando sobre el texto que se está analizando y solo se inserta a nuestra nueva lista si no es una stopword. Después, reducimos las palabras a sus raíces con el SnowballStemmer en español.
